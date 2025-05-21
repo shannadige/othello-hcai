@@ -1,45 +1,9 @@
-# othello-hcai
+# Othello - UX Playbook for Human-Centered AI Design
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+Othello is an open-source UX playbook aimed to address the nuances of designing for AI.
 
-Run development server:
+The technology landscape is evolving at a rapid and unprecedented pace. Our mission is to create a source of truth that bridges the gap between the emerging paradigm of AI-driven experience with the existing constructs of human control and agency. We address all AI solutions as Human-Centered AI (HCAI).
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+The Othello playbook should not be treated as one single source of truth — we acknowledge that there are many different POVs from unique backgrounds and contexts that define HCAI their own way. Our team wants to give you a space amongst vast internet resources that references research-backed frameworks, ethical considerations, and applied design patterns to create the best HCAI experiences that are transparent, empowering, and human-centered.
 
-Open http://localhost:3000 with your browser to see the result.
-
-## Explore
-
-In the project, you can see:
-
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `app/layout.config.tsx`: Shared options for layouts, optional but preferred to keep.
-
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
-
-### Fumadocs MDX
-
-A `source.config.ts` config file has been included, you can customise different options like frontmatter schema.
-
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
-
-## Learn More
-
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+Thank you for taking the time to visit this documentation. You can visit https://github.com/shannadige/othello-hcai to contribute to the project or leave feedback for changes.
