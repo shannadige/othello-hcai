@@ -2,7 +2,6 @@
 title: Welcome
 description: Othello - UX Playbook for Human-Centered AI Design
 ---
-import { Banner } from 'fumadocs-ui/components/banner';
 
 <img src="/othello.png" alt="othello" width="256" height="256" />
 
@@ -16,15 +15,14 @@ Thank you for taking the time to visit this documentation. You can visit https:/
 
 ## Get Started
 
-<div style={{ margin: '24px 0'}}>
-  <Banner changeLayout={false}>
-    ⚠️ Othello Docs is still under construction. To contribute, please visit the repository linked above and send feedback to our authoring team.
-  </Banner>
-</div>
+import { Callout } from 'fumadocs-ui/components/callout';
+
+<Callout type='warning'>
+  This project is still in early stages of development and incomplete. To contribute, please visit the [Othello repository](https://github.com/shannadige/othello-hcai) and send feedback to our authoring team.
+</Callout>
 
 import { Compass, Book } from 'lucide-react';
 
 <Cards>
   <Card title="HCAI Guidances" description="Learn more about implementing best practices of HCAI" href="/docs/guidance" icon={<Compass className="!w-8 !h-8" />} className="[&_[role=img]]:!bg-transparent [&_[role=img]]:!border-0" />
-  <Card title="Learn more about Fumadocs" href="https://fumadocs.vercel.app" icon={<Book className="!w-8 !h-8" />} className="[&_[role=img]]:!bg-transparent [&_[role=img]]:!border-0" />
 </Cards>

@@ -1,7 +1,8 @@
 ---
-title: Guidance for Building HCAI
+title: Guidances for Building HCAI
 description: Guiding principles on building HCAI
 ---
+import { Step, Steps } from 'fumadocs-ui/components/steps';
 
 Artificial intelligence poses many opportunities for societal transformation, with countless applications from automation of complex, risk-averse processes to intelligence powering benefits for humanity. There is however, a much taller emphasis on the technical advancements of the technology, and less discourse on the human element of technology.
 
@@ -11,13 +12,31 @@ The following guidances on building Human-Centered AI has been collated from num
 
 Among several recent advancements in AI, new and unique challenges have arisen that are still being addressed to this day. Akshay Kore's publication titled "Designing Human-Centered AI Experiences" gives us much better insight into these problems:
 
-> **1.** First is the **control problem**, which is how to build AI that is beneficial to us. How can we know cases when it is not working in our favor? What tools or techniques can we use to make sure that AI does not harm us?
+<Steps>
 
-> **2.** The second is **building trust**. For AI to be helpful, its users need to trust it. We need to make sure that users of AI can trust its results and make appropriate choices. For example, the majority of the results of an AI system are probabilistic. When it predicts a donut in an image, it is never 100% certain. It could be 99.9% certain but never 100%. There is always a margin for error.
+<Step>
+First is the **control problem**, which is how to build AI that is beneficial to us. How can we know cases when it is not working in our favor? What tools or techniques can we use to make sure that AI does not harm us?
+</Step>
 
-> **3.** The third **significant problem** is explainability. Many AI systems are notorious for operating in a black box: the reasons for its suggestions are not known or are difficult to explain. The problem of explainability deals with providing appropriate information or explanations for AI’s results so that its users can make informed judgments.
+<Step> 
 
-> **4.** **Ethics** is a critical ingredient for designing beneficial AI products. Our societies are biased, and many times AI models reflect this underlying bias, harming users or leading to unintended consequences. AI ethics focuses on formulating values, principles, and techniques to guide moral conduct when building or deploying AI.
+The second is **building trust**. For AI to be helpful, its users need to trust it. We need to make sure that users of AI can trust its results and make appropriate choices. For example, the majority of the results of an AI system are probabilistic. When it predicts a donut in an image, it is never 100% certain. It could be 99.9% certain but never 100%. There is always a margin for error. 
+
+</Step>
+
+<Step>
+
+The third **significant problem** is explainability. Many AI systems are notorious for operating in a black box: the reasons for its suggestions are not known or are difficult to explain. The problem of explainability deals with providing appropriate information or explanations for AI’s results so that its users can make informed judgments.
+
+</Step>
+
+<Step> 
+
+**Ethics** is a critical ingredient for designing beneficial AI products. Our societies are biased, and many times AI models reflect this underlying bias, harming users or leading to unintended consequences. AI ethics focuses on formulating values, principles, and techniques to guide moral conduct when building or deploying AI.
+
+</Step>
+
+</Steps>
 
 ## HCAI guidance components
 
@@ -25,6 +44,7 @@ This section presents six guiding components essential for best practices in des
 
 ### 1. Value Alignment
 The involvement of human-centered design (HCD) applied to AI follows the same path as any other HCD process for product development: understanding what challenges deeply frustrate and motivate human users, and validating a solution that accurately solves for those needs.
+[Read more->](/docs/guidance/value-alignment)
 
 ### 2. Mental Models for Capability
 Users form mental models for the tools they interact with, and conversely gain trust in the tools through a shared understanding. With the changing and evolving landscape of what AI technologies deliver, it is imperative for HCAI systems to set expectations with a user on what the AI solution confidently can and cannot do, so that the solution promotes the appropriate levels of trust.

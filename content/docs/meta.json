@@ -1,4 +1,5 @@
 {
   "title": "Name of Folder",
-  "pages": ["index", "---Guidances---", "...guidance"]
+  "pages": ["index", "---Human-Centered AI---", "guidance"],
+  "root": true
 }

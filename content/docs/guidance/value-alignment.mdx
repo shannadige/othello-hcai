@@ -1,0 +1,65 @@
+---
+title: 1. Value Alignment
+description: Learn what matters to human users, and build to accurately solve for their needs.
+---
+> Instead of asking “Can we use AI to do __ ?”, start exploring human-centered AI solutions by asking: "How might we solve __ ?" and "Can AI solve this problem in a unique way?"
+
+Like any product or service created for users, designers play a key role in understanding users—learning who they are, what their motivations or frustrations are, and what they are looking to achieve in a problem space.
+
+In the HCAI landscape, designers must retain this role in learning and understanding users in order to build AI that supplements their needs without making it difficult or irrelevant for human existence.
+
+## Understand the users' need for AI
+
+An understanding for where an AI solution comes into the picture for users first requires an understanding of the users themselves. Putting AI aside for a moment, any successful solution is built on identifying a genuine problem that a user or customer has. 
+
+Designers are well-equipped with activities that support understanding users, groups and systems. From sitting down for an interview to combing analytics for usage insights, each activity delivers data in form of opportunities that design can build an effective solution to a problem.
+
+## Determine how AI fits solution criteria for a user
+
+In solution assessment, many components remain the same as traditional software design. There will be benefits and consequences of using advanced technologies in a setting to the benefit of an end user, AI without exception.
+
+### Where AI is probably better:
+
+- **Recommending different content to different users**. Such as providing personalized suggestions for movies to watch.
+    
+- **Prediction of future events**. For example, showing flight prices for a trip to Denver in late November.
+    
+- **Personalization improves the user experience**. Personalizing automated home thermostats makes homes more comfortable and the thermostats more efficient over time.
+    
+- **Natural language understanding**. Dictation software requires AI to function well for different languages and speech styles.
+    
+- **Recognition of an entire class of entities**. It’s not possible to program every single face into a photo tagging app — it uses AI to recognize two photos as the same person.
+    
+- **Detection of low occurrence events that change over time**. Credit card fraud is constantly evolving and happens infrequently to individuals, but frequently across a large group. AI can learn these evolving patterns and detect new kinds of fraud as they emerge.
+    
+- **An agent or bot experience for a particular domain**. Booking a hotel follows a similar pattern for a large number of users and can be automated to expedite the process.
+    
+- **Showing dynamic content is more efficient than a predictable interface**. AI-generated suggestions from a streaming service surface new content that would be nearly impossible for a user to find otherwise.
+
+### When AI is probably not better:
+
+- **Maintaining predictability**. Sometimes the most valuable part of the core experience is its predictability, regardless of context or additional user input. For example, a “Home” or “Cancel” button is easier to use as an escape hatch when it stays in the same place.
+    
+- **Providing static or limited information**. For example, a credit card entry form is simple, standard, and doesn’t have highly varied information requirements for different users.
+    
+- **Minimizing costly errors**. If the cost of errors is very high and outweighs the benefits of a small increase in success rate, such as a navigation guide that suggests an off-road route to save a few seconds of travel time.
+    
+- **Complete transparency**. If users, customers, or developers need to understand precisely everything that happens in the code, like with Open Source Software. AI can’t always deliver that level of explainability.
+    
+- **Optimizing for high speed and low cost**. If speed of development and getting to market first is more important than anything else to the business, including the value that adding AI would provide.
+    
+- **Automating high-value tasks**. If people explicitly tell you they don’t want a task automated or augmented with AI, that’s a good task not to try to disrupt. We’ll talk more about how people value certain types of tasks below.
+
+Once AI is determined as the best solution approach, designers must weigh the consideration of automation vs. augmentation, which we cover in more depth with respect to User Agency and Control.
+
+## Build success, act on failure
+
+As an AI solution is designed and implemented, it is important for teams to plan and monitor negative impacts of the AI model's automated decisions. These potential impacts should be considered through both measuring metrics for impact and setting product standards.
+
+Many deterministic and classifier AI models refine using a reward function, a mathematical formula used to determine right vs. wrong predictions as a metric. In some cases of modern and generative AI, that classification of absolute right and wrong can be a bit blurry. We cover more of that in Errors, Failures, and Audit Trails.
+
+Connecting the dots between metrics and guidance of standards requires a level of maturity within teams to develop contingencies in the case that product impact does not go according to plan. The example framework that PAIR gives guidance on helps align the team on what to do if something goes wrong:
+
+> If **(specific success metric)** for ( your team’s AI-driven feature ) ( drops below/goes above meaningful threshold ) we will **( take a specific action )**.
+
+An example of this could be: "If users’ average rate of rejection of smart playlists and routes goes above 20%, we should **check our machine learning model**."
