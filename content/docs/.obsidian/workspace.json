@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "guidance/mental-models.mdx",
+                "file": "guidance/accessible-experiences.mdx",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "mental-models"
+              "title": "accessible-experiences"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "guidance/mental-models.mdx",
+                "file": "guidance/accessible-experiences.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for mental-models"
+              "title": "Backlinks for accessible-experiences"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "guidance/mental-models.mdx",
+                "file": "guidance/accessible-experiences.mdx",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of mental-models"
+              "title": "Outline of accessible-experiences"
             }
           }
         ],
@@ -171,16 +171,16 @@
   },
   "active": "af897e240780797d",
   "lastOpenFiles": [
-    "guidance/value-alignment.mdx",
+    "guidance/error-and-failure-accountability.mdx",
+    "guidance/accessible-experiences.mdx",
+    "guidance/user-privacy-and-security.mdx",
+    "guidance/safety-mechanisms.mdx",
+    "guidance/data-fairness-and-quality.mdx",
+    "guidance/adaptability.mdx",
     "guidance/mental-models.mdx",
-    "guidance/index.mdx",
-    "index.mdx",
-    "guidance/meta.json",
-    "guidance/guidance.mdx",
-    "guidance",
-    "(guidance)/guidance.mdx",
-    "(guidance)/index.mdx",
-    "(guidance)/value-alignment.mdx",
-    "(guidance)/meta.json"
+    "guidance/value-alignment.mdx",
+    "guidance/human-agency-and-oversight.mdx",
+    "guidance/transparency-and-explainability.mdx",
+    "guidance/index.mdx"
   ]
 }
