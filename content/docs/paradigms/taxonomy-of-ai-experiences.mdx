@@ -1,0 +1,89 @@
+---
+title: Taxonomy of AI Experiences
+description: Defining the scope of AI experiences under a HCAI lens
+---
+
+It's important for us to narrow our scope when discussing HCAI experiences, to current and predicted interfaces with artificial intelligence, so that the correct human factors and design principles are applied when building experiences for such interfaces.
+
+The Othello playbook is scoped down to human-controlled interfaces. These definitions are technology-agnostic—meaning that any scope of artificial intelligence capability (eg. narrow AGI, physical AI) can be defined—but must consider how a feedback loop with a human is established.
+
+## What defines AI?
+
+AI is largely defined as any technology or machine that can perform complex tasks associated with human intelligence. Tasks such as problem-solving, planning, reasoning, and decision-making are covered within this definition. Machine learning models, neural networks, and generative AI software fit into this definition.
+
+Culture has often anthropomorphized AI as a "being" that can think, reason, and make decisions much like humans can. However, there are different magnitudes of what an AI system can do, such as the differences in narrow AI vs AGI (artificial general intelligence). This is important to understand as AI-powered experiences may leverage different AI technologies in order to provide an experience and value to an end user.
+
+This playbook will largely focus on AI applications that power experiences with a human-in-the-loop (HITL).
+
+## AI Experience Categories
+
+Below are four (4) uniquely identifiable experience categories. These categories have been determined and selected based on our understanding of the current AI landscape, interaction patterns, level of agency, and integration approach.
+
+### 1. Conversational AI
+
+Conversational AI enables natural language interaction between a human and AI model, allowing users to communicate with complex systems using familiar conversational patterns. Conversational AI has more recently emerged as the foundation for many generative AI experiences, such as ChatGPT or Gemini.
+
+Conversational AI experiences are typically grounded with turn-taking dynamics between a human and an AI model. The model in question is a combination of natural language processing (NLP), foundation models (such as a transformer model), and machine learning (ML) techniques. Combined with other capabilities such as reasoning and actions, conversational AI can be leveraged to perform agentic workflows by consent from a user.
+
+The main reason that conversational AI is so popular in modern AI experiences is because of its ease of use. Users can describe their intent through simple language, and AI models are programmatically driven to deliver outcomes that meet user needs.
+
+UX notes on Conversational AI:
+* **Modality of interaction**: Because of the input-output relationship between a human prompter and AI, many experiences are grounded within a chat-based UI. However, this should not limit designers from considering other methods and modalities of building conversational AI, such as voice, vision, and gestures.
+* **Feedback loops**: Conversational AI uses NLP to synthesize and act on user intent — not only to serve output, but to build on additional user input. Methods should be available for users to provide feedback and iterate with AI.
+* **Progressive disclosure:** Because of its high demand for computing power, conversational AI typically "streams" its language predictions in realtime, appearing to simulate human typing/thinking. Designers should consider how to handle loading, output, and error states with this constraint in mind (written as of 2025, where model performance can be variable and inconsistent).
+
+### 2. Augmentation tools
+
+Augmentation tools follow the principle that AI systems should "support human self-efficacy, promote creativity, clarify responsibility, and facilitate social participation". They are typically built on existing, traditional UI patterns and serve to assist a human user. For example, many creative tools that designers use today such as Miro or Figma integrate AI capabilities that are baked into the common workflows of designing or whiteboarding, and amplify the capabilities a user has at hand.
+
+Augmentation tools can be considered forms of co-creation with AI—much like a team can collaborate on a document, human users and AI models work in harmony to accomplish goals, with humans having agency and control on outputs and decisions. 
+
+Augmenting certain tasks requires a deep understanding of the existing workflows, an area where design expertise shines bright. In a given workflow, designers may consider what are the highest points of effort and ambiguity going into a user's input, and what is the user's desired output that still allows levers of control.
+
+UX notes on AI via augmentation tools:
+* **Context, defaults, and controls**: The integration of AI into a user's existing workflow will need to consider what context a user would need assistance in, the default values that would enable the quickest input, and the controls that a user could adjust to guide the necessary output.
+* **Feedback mechanisms**: An output of an AI model can be non-deterministic and variable. An experience on an augmentation tool should address how users accept, reject, modify parts of, audit, apply, and regenerate a model's output.
+
+### 3. Decision Support Systems
+
+Decision Support Systems (DSS) are defined as computer applications that brings together data, analytical tools, and synthesis to help a user make better and informed decisions. If this is sounding familiar, DSS has existed as a form of recommender systems for decades, typically used in contexts of dashboards displaying data assets, sales/revenue figures, or production management features.
+
+The reason we use DSS to contextualize AI experience is because its definition already incorporates an architecture relevant to the human user—a DSS contains a database, a model used to inform a recommended decision, and the UI presentation of that information. The user is the action component that takes a decision based on the information shown to them. In many cases, the model used can be considered a form of AI while the human user retains agency in making a decision.
+
+We also bundle the "autonomous agent" experience into DSS. Agents as an AI capability leverage several technologies to autonomously perform actions on a rule-based trajectory, but modern agent software requires a user to prompt, audit, take action on, and provide feedback to a presentation layer to guide the completion of a task or workflow.
+
+It's important to delineate that DSS systems consist of but don't equate to their underlying technologies and models. Models can always be fine-tuned and iterated upon, but the requirement of user action remains a critical approval point for the action taken. Otherwise, the system should be classified as ambient intelligence.
+
+UX notes on AI-powered DSS:
+* **Transparency mechanisms**: DSS interfaces are constructed in a way to include people as part of its successful implementation. When working with AI models incorporated into a DSS, designers should explore how to communicate to the user what data is considered and the confidence level of actions based on such data.
+* **Execution and override**: Advanced DSS systems include include implementation mechanisms—once a user makes a decision, the series of actions to execute that decision are automated or guided by an AI model. Designers should consider the permission models in which a user is required to intervene, for example in the approval or rejection of a recommended decision.
+* **Audit trails**: When automation is performed within an AI-powered DSS, there may be requirements to understand *why* a decision was made on behalf of a human user. Designers must assess those requirements to present the evidence of such decisioning models, and in turn define the accountability of those decisions.
+
+### 4. Ambient Intelligence
+
+Ambient intelligence (AmI) is defined as a system using combinations of technology to perceive, understand, and respond to the needs of an individual. AmI can be considered as "working in the background", able to understand context in realtime, ubiquitously operate within a system, and present accurate and precise end results.
+
+There are a number of characteristics that an AmI system can compose of:
+1. AmI systems range in the level of immersion they provide to a user, from as simple as a an OAuth token authenticating a returning user, to as complex as a physical room personalizing its atmosphere to a familiar user. 
+2. AmI systems also range in the level of agency granted to a user—in some cases, AmI systems may require minimal or no involvement from a user. 
+3. Lastly, AmI systems are adaptive by nature—by leveraging sensors, processors, and actuators, AmI systems can leverage large swaths of data, learn from to human responses, and adjust personalization for experiences in realtime.
+
+With variable levels of computer and human agency, AmI is still considered within AI experiences because of the role of a human user in an AmI system—there may still be a user performing some action to trigger an automation, there may still be a user that can modify or reject the actions of the system, there may still be a user that provides new and unforeseen data to the system. These interactions may be considered by designers in a larger interaction context model, for example via a journey map or a service blueprint.
+
+UX notes on ambient intelligence:
+* **Reliable and safe AI guardrails**: Building ambient experiences requires an equal level of human and computer agency to balance when AI models are not perfect at predicting outputs of given context.
+* **Feedback models**: When AI works in the background within an ambient system, there may be little to no feedback presented on an interface in contrast to DSS. Designers should assess modalities where humans can acknowledge a certain state of failure, success, or progress of an action.
+* **Trust through learnability**: An ambient experience performs best when it adapts to new and undefined scenarios. These scenarios may be considered within solution design, but an AmI system should be adaptable to new data points and refining its approaches through anticipatory practices (a common one today being RLHF).
+
+
+
+
+
+
+
+
+
+
+
+
+

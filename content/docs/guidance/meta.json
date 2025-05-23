@@ -1,4 +1,4 @@
 {
-  "title": "Guidances",
+  "title": "Guidances for Building HCAI",
   "pages": ["value-alignment", "mental-models", "human-agency-and-oversight", "transparency-and-explainability", "safety-mechanisms", "adaptability", "data-fairness-and-quality", "user-privacy-and-security","error-and-failure-accountability", "accessible-experiences"]
 }

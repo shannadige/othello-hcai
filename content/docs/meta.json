@@ -1,5 +1,7 @@
 {
   "title": "Name of Folder",
-  "pages": ["index", "---Human-Centered AI---", "guidance"],
+  "pages": ["index", 
+  "---New Paradigms---","./paradigms/why-ai-changes-hci","./paradigms/the-shifting-role-of-designers","./paradigms/building-strategy-hcai","./paradigms/taxonomy-of-ai-experiences",
+  "---Human-Centered AI---", "guidance"],
   "root": true
 }

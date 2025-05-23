@@ -1,0 +1,65 @@
+---
+title: The Shifting Role of Designers
+description: Designers have new weight to carry
+---
+
+The emergence of generative AI at a global scale has completely flipped the perception of the technology industry. Researchers, designers, strategists, product managers, developers, testers, and architects have a valid worry that GenAI technology will evolve rapidly to scale, to the point where they're no longer required as professions.
+
+To some extent, AI introduces a context of automation and intelligence that could very much augment, and even replace, many of the tasks that software practitioners carry on in their day-to-days. 
+
+Despite this uncertainty, design thinkers (which we will abbreviate to "designers") must evolve to match the pace of AI advancements by employing new methods and practices to deliver great AI experiences. While some of these methods may seem unfamiliar or uncomfortable, they account for the nondeterministic and rapidly-growing technology landscape.
+
+## Design for systems, not screens
+
+Traditional interface design has centered around creating fixed layouts and defining the scope of user journeys. As GenAI shifts this paradigm toward dynamic and adaptive experiences, this transition in capability requires designers to re-conceptualize their approach — for example, a designer building an autonomous AI interface may move from designing single, linear design mockups to creating flexible frameworks that can adapt to the user's needs and the AI model's contexts.
+
+Nielsen Norman Group (NNG) released an article in 2024 detailing the term "generative UI" (synonymous to our definition of **Adaptive AI**) and its disruption on the design field:
+
+> Within the past year, the design community has begun discussing how generative user interfaces could impact our field. 
+> 
+> A **generative UI** (genUI) is a user interface that is dynamically generated in real time by artificial intelligence to provide an experience customized to fit the user’s needs and context.
+> 
+> Generative AI systems have established a new interaction paradigm, [intent-based outcome](https://www.nngroup.com/articles/ai-paradigm/) specification. This is already shifting how we think about digital design.
+> 
+> UX design has traditionally involved a heavy focus on the interface. While interfaces will always be important to UX design, AI-powered automation and generative UI will lead to a rise in outcome-oriented design.
+
+The callout to intent-based outcome is particularly important, in the sense that many users who interact with AI systems will not command what they want the computer to do, but rather *what outcome they want*. 
+
+Designers are now creating systems rather than screens, by focusing on defining the parameters and constraints within which AI operates. This approach means instead of an emphasis on constraining the user experience to one deterministic outcome, designers are learning of multiple non-deterministic outcomes that an interface or experience must consider.
+
+The activities for this practice are variable to what's needed. A few examples:
+
+* A chatbot experience for ordering lunch via SMS, mapped out with a user journey and supported by customer persona data.
+* An autonomous agentic system, with workflows defined via ReAct pattern loops. [link](https://medium.com/binome/ai-agent-workflow-design-patterns-an-overview-cf9e1f609696)
+
+## Design for variability and probabilistic outputs
+
+Unlike traditional interfaces with predictable behaviors, generative AI introduces probabilistic outputs—responses that vary based on inputs, user context, and model inference.
+
+>"You're designing a probabilistic system that is dynamic and that reacts to inputs in real time—with outcomes and behaviors that will be unexpected or unexplainable at times, and where weighing tradeoffs might be a murky exercise." [The Intercom Blog](https://www.intercom.com/blog/design-ux-machine-learning-ai/)
+
+This uncertainty poses a new challenge to designers: how to consider the impact to experience by the range of all possible outputs.
+
+The full range is impossible to predict, however there are limited dimensions in level of confidence, content, and error potential that a designer can ground their approach to. Utilizing the context of the use case, designers can create apply these dimensions to address human-centered design for real-world applications. Below are some examples within ongoing HCI advancements and AI research that we have observed:
+
+1. **Deterministic alternatives**: When an AI system can't generate a reliable response but can offer verified alternatives (e.g., "I can't answer that specifically, but here are related verified facts..."). A common application to this is adversarial AI, one that can challenge users' perceived opinion with grounded and factual data. [Mit](https://mitsloan.mit.edu/ideas-made-to-matter/mit-study-ai-chatbot-can-reduce-belief-conspiracy-theories)
+2. **Confidence spectrum outputs**: Responses that visually map different parts of the output along a confidence spectrum, allowing users to quickly identify which parts to trust. A paper from Concordia University revealed that visualizing uncertainty assists human users with collaborative decision-making on low-confidence answers: [Frontiers](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1464348/full)
+3. **Progressive verification outputs**: Responses that start with high-confidence information and progressively disclose less certain details as users request more depth. A deep understanding of a product's user base is the strongest validator for how much progressive disclosure users require in a given AI system. [Acm](https://dl.acm.org/doi/fullHtml/10.1145/3374218)
+4. **User-adjustable Confidence Thresholds**: Interfaces that allow users to set their preferred balance between coverage (more information, potentially less reliable) and precision (less information, but more reliable). There are more tangible variations of this functionality applied to real-world use cases. [Zendesk help](https://support.zendesk.com/hc/en-us/articles/8357749625498-About-confidence-thresholds-for-advanced-AI-agents) [Rhombus Support](https://support.rhombussystems.com/hc/en-us/articles/28950875256333-AI-Confidence-Settings) 
+
+## Leverage AI within the design process
+
+The often-heard quote on industries impacted by AI is "AI won't replace you, but a person using AI will." While AI capabilities have not overtaken those of humans, performant designers will often find efficiencies within day-to-day workflows that they can automate with AI tools. Designers who wish to stay relevant within software innovation must adapt their working methods to spend less time where processes can be automated, and more time in problem areas where critical thinking cannot be automated.
+
+AI tools today excels at handling repetitive tasks like asset creation, layout adjustments, and basic wireframing, freeing designers to focus on strategic thinking and creative problem-solving. Designers in today's paradigm must develop new skills—including prompt engineering, system thinking, and probabilistic design approaches to leverage these tools while maximizing throughput.
+
+There are still areas where AI-based inference cannot truly provide true automation, which the visibility of is made clear by lack of tools that automate such areas. Creativity to problem-solving is one example that requires a delicate consideration to automation — designers are key players in refining assets and content to a given use case, stewarding a human-centered strategy to design, and making decisions on data and insights, all of which is done in the modern workplace through discussions, materials, and human-driven actions.
+
+## Evolve through multiple disciplinary competencies
+
+As design operations are impacted by AI, designers play a key role in collaborating with data scientists, ML engineers, and AI specialists. This requires learning new technical vocabulary and understanding evolving AI capabilities and limitations.
+
+Designers are increasingly becoming stewards of ethical AI implementation. A designer's role on a software team may require asking questions like "When does AI-based personalization cross the line into exploitative design practices?" or "How do we strike the right balance between leveraging AI capabilities and maintaining human control?" This includes addressing concerns about bias, transparency, data privacy, and responsible AI use.
+
+A UX designer's role in particular will likely evolve from creating individual screens to creating design systems that provide guidance to what presentation should be given for a given use case. We have modeled this theory from the context of Adaptive AI and its ability to refine what is presented on UI based on a given user's context and feedback received from that user.
+

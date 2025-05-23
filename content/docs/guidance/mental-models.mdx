@@ -3,6 +3,7 @@ title: 2. Mental Models for Capability
 description: Learn what matters to human users, and build to accurately solve for their needs.
 ---
 import { Callout } from 'fumadocs-ui/components/callout';
+import { Step, Steps } from 'fumadocs-ui/components/steps';
 
 <Callout type='warning'>
   This document is still in early stages of drafting and incomplete. To contribute, please visit the [Othello repository](https://github.com/shannadige/othello-hcai) and send feedback to our authoring team.
@@ -10,4 +11,50 @@ import { Callout } from 'fumadocs-ui/components/callout';
 
 Mental models form a person's internal representation of external reality, including ideas, people, objects, or systems. It is an internal mechanism for humans to represent the world in simpler forms that would otherwise be a load of complex information to understand literally.
 
-Working with AI-powered products, like any other product, has an associated mental model from its users. HCAI solutions should work within existing mental models and set expectations on what it can and cannot confidently perform in order to build appropriate levels of trust.
+Working with AI-powered products, like any other product, has associated mental models from its diverse pool of users. In order to build reliable, safe, and trustworthy systems, HCAI solutions should approach this set of representations delicately—by 1) working within existing mental models that users have about that system, and 2) outlining to users on what it can and cannot confidently perform.
+
+## Working within existing mental models and expectations
+
+Existing mental models can serve as a bridge between other experiences and yours. When building a solution, your product and engineering team typically considers competitors that serve the same or similar value to users. Their emotions, behaviors, and actions help inform the understanding they may have of new tools they use. This is immensely valuable to building emerging AI products that mold experience with user expectations.
+
+### How do we identify these existing models?
+
+There are a few methods that we recommend in discovering and identifying mental models; they are interchangeable depending on the needs you are looking for.
+
+<Steps>
+
+<Step>
+**Searching across scholarly literature:** There is an abundance of research performed by institutions to understand more about human mental models in different modalities of technology, including more recent advancements. We have collated a few examples below within the lens of HCAI.
+</Step>
+
+<Step>
+**Market research:** Product teams building AI systems in new problem spaces should consider the unique forces that may affect their product resilience with users. A model to that has framed our way of thinking of these factors is adapted from [Strategyzer's Business Model Space](https://www.strategyzer.com/library/the-business-model-space). This model incorporates human cultural and societal trends as macro-forces to inform how to evolve an AI product/service for a changing technology space.
+</Step>
+
+<Step>
+**User research:** If a user or customer base exists, research activities become more valuable when moving into new markets or capabilities. Collecting and synthesizing data about user's current workflows, the competitors they use, and their interactions with the world can paint a picture for both existing and emerging representations of interacting with an AI product. A useful resource to map mental models has been provided by [PAIR: Mental Models worksheet](https://pair.withgoogle.com/worksheet/mental-models.pdf).
+</Step>
+
+</Steps>
+
+### Example: Recommender systems
+
+Social media, e-commerce, streaming, and other platforms typically provide personalized recommendations to a user based on their exhibited past behavior as well as their features. New products and services that use recommender systems aim to deliver content that meets the real-time preferences and needs of their users, who demonstrate unique understandings of why recommended content is shown to them.
+
+**A good example:** Amazon has evolved its phrasing of product recommendations over time. When users see recommendations such as "Customers who bought this item also bought...", they may interpret this feature signaling to them as a customer that "people who are similar to me like these items". They may also see "Top picks for you based on your history" as a system learning their preferences and as a trustworthy "shopping partner."
+https://arxiv.org/pdf/2109.00982
+
+**A bad example:** Recommender systems can often be undermined when advertisement- or marketing-driven content is positioned as "recommended" to the user, ignoring their preferences or historical context—users change their expectations and lose trust in a recommender system that serves up content that may be irrelevant to them.
+https://interactivesystems.info/system/pdfs/958/original/UMAP-20-Exploring.pdf?1597843041
+
+### Example: Generative AI
+
+Advancements in generative AI since 2022 have skyrocketed, and research in HCI has been barely keeping up in understanding user mental models when engaging with these new AI systems.
+
+Some of the most unique research that backs many diverse mental models of GenAI has emerged from studying its usage by children. Individuals may liken a LLM-based product like ChatGPT to a "unique search tool" that can answer any of their questions, or a "friend" who can reflect emotion and help navigate everyday situations.
+https://arxiv.org/pdf/2405.13081
+
+Solutions that leverage GenAI in its current state must balance the technology's capabilities with its shortcomings: GenAI is well-known for its challenges in "hallucinating" content that is non-factual or accurate and in its limited applicability to complex and data-absent tasks. An approach that many product teams are taking to address this challenge is displaying disclosures on generative outputs. While this solves surface-level issues on providing disclaimer to poor outputs, there still exists underlying issues on how users may still perceive and use the technology even with errors and ethical slips.
+
+
+
