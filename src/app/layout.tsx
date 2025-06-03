@@ -2,6 +2,13 @@ import './global.css';
 import { RootProvider } from 'fumadocs-ui/provider';
 import { Inter } from 'next/font/google';
 import type { ReactNode } from 'react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.ico'
+  }
+};
 
 const inter = Inter({
   subsets: ['latin'],

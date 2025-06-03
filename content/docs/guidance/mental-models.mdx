@@ -11,9 +11,9 @@ import { Step, Steps } from 'fumadocs-ui/components/steps';
 
 Mental models form a person's internal representation of external reality, including ideas, people, objects, or systems. It is an internal mechanism for humans to represent the world in simpler forms that would otherwise be a load of complex information to understand literally.
 
-Working with AI-powered products, like any other product, has associated mental models from its diverse pool of users. In order to build reliable, safe, and trustworthy systems, HCAI solutions should approach this set of representations delicately—by 1) working within existing mental models that users have about that system, and 2) outlining to users on what it can and cannot confidently perform.
+Working with AI-powered products, like any other product, has associated mental models from its diverse pool of users. In order to build reliable, safe, and trustworthy systems, HCAI solutions should approach this set of representations delicately—by either A) working within existing mental models that users have about that system, or B) introducing users to new mental models.
 
-## Working within existing mental models and expectations
+## Working within existing mental models and expectations of AI
 
 Existing mental models can serve as a bridge between other experiences and yours. When building a solution, your product and engineering team typically considers competitors that serve the same or similar value to users. Their emotions, behaviors, and actions help inform the understanding they may have of new tools they use. This is immensely valuable to building emerging AI products that mold experience with user expectations.
 
@@ -56,5 +56,24 @@ https://arxiv.org/pdf/2405.13081
 
 Solutions that leverage GenAI in its current state must balance the technology's capabilities with its shortcomings: GenAI is well-known for its challenges in "hallucinating" content that is non-factual or accurate and in its limited applicability to complex and data-absent tasks. An approach that many product teams are taking to address this challenge is displaying disclosures on generative outputs. While this solves surface-level issues on providing disclaimer to poor outputs, there still exists underlying issues on how users may still perceive and use the technology even with errors and ethical slips.
 
+## Introducing new mental models of AI to users
 
+User mental models are formed within the first interaction of a product or service, and grow throughout their lifecycle. Bringing new AI-powered experiences to users requires a delicate handle, in which functionality (capabilities) of the AI technology is clearly understood and aligned with users throughout their journey.
 
+For any given experience of an AI solution, it truly depends on the level of detail a user needs to understand about the underlying technology to use the product effectively.
+
+Below is a reference for different categories of AI users, and example recommendations for how to address new AI capabilities directly to them. These won't always the most practical applications; the table serves to directly address some of the holistic needs observed from each category.
+
+| User Category                | Description                                                                                           | Example recommendation for AI onboarding                                                                                                                                                        |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Non-experts                  | Users with little to no foundational AI expertise.                                                    | Create carousel messaging that is clear, simple, and accessible, by placing a quick statement that helps these users understand the value of the AI solution and how to engage with the system. |
+| Users with basic AI literacy | Users have a general understanding of AI, and may have experimented with other solutions in the past. | Differentiate how the AI solution performs, via clear and simple product marketing material. This material can compare to solutions that these users use everyday, eg. "Cursor for realtors."   |
+| Power users                  | Users are fairly experienced with AI, and seek customization and advanced features.                   | Annotated walkthrough of AI functionality can show these users how they can refine their inputs and how to maximize the output provided by the AI.                                              |
+| Specialists                  | Users have a strong AI background and need to understand the solution's configuration.                | Onboarding may be a background process for these users, and may point users via tooltips to functional levers they expect in other products.                                                    |
+| Enterprise users             | Users may vary in AI competency, but are looking for transparency and explainability in data used.    | Onboarding messages that communicate training data used, input/output constraints, and compliance to regulatory standards may help these types of users build confidence in using the product.  |
+
+The first interaction for users is a crucial step to building a mental model of the product and setting them up for success. Onboarding serves as a way to establish the relationship between a user and product. Onboarding can be conducted via many patterns, from annotations and tooltips, to dialogs and full-page carousels. Below, we cover a few practical patterns to introduce AI to users and start the development of appropriate mental models.
+
+### Components coming soon!
+
+---
